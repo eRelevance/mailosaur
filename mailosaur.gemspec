@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files       = Dir['LICENSE', 'README.md', 'lib/mailosaur.rb', 'lib/**/*']
   s.add_dependency 'json', ['>= 1.7.6']
   s.add_dependency 'mime-types', ['>= 1.16']
-  s.add_dependency 'rest-client', ['~> 1.7']
+  s.add_dependency 'rest-client', ['~> 2.0']
 
   s.add_development_dependency 'mail', ['= 2.6.1']
   s.add_development_dependency 'rake', ['= 10.4.2']
